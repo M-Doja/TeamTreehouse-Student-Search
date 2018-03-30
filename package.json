@@ -1,0 +1,17 @@
+{
+  "name": "treehousesearch",
+  "version": "1.0.0",
+  "description": "A application for looking up Team Treehouse students and viewing their accomplishments.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "javascript",
+    "css",
+    "static"
+  ],
+  "author": "Micah Dunson",
+  "license": "MIT"
+}

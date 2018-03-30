@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Native App</title>
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">Treehouse Student Search</h1>
+    </header>
+    <div class="app-container ml-3 mr-3">
+      <div class="pt-3 mb-3 mt-3"></div>
+      <div class="formwrapper ">
+        <form id="nameform" class="pt-3 pb-3 ma br-8" action="" method="GET">
+          <div class="ctr">
+            <label class="tb" for="username">Enter Treehouse Student Username</label><br>
+            <input autofocus class="mt-2" type="text" name="username" id="username"><br>
+            <input id="btn" class="mt-2 br-8 tb"type="button" onclick="fetchData()" value="Find Student">
+          </div>
+        </form>
+      </div>
+      <div class="ctr pb-3 ma br-8" >
+        <div id="L"class="left">
+          <div class="ctr pt-2 tb"id="error">
+            <p>Find Team Treehouse Student Info</p>
+          </div>
+        </div>
+        <ul id="R"class="right"></ul>
+      </div>
+    </div>
+    <script src="js/app.js" charset="utf-8"></script>
+  </body>
+</html>
